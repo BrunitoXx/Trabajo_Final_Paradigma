@@ -1,0 +1,31 @@
+ /*
+        void CargaDatos()
+        {
+            con.Open();
+
+            comboBox1.DataSource = Empleados();
+            comboBox1.DisplayMember = "Nombre";
+            comboBox1.ValueMember = "Id";
+
+            con.Close();
+        }
+        
+        public static List<Empleado> Empleados()
+        {
+            List<Empleado> lista = new List<Empleado>();
+            
+            OleDbCommand com = new OleDbCommand("SELECT Id,Nombre FROM Clientes", con);
+            OleDbDataReader reader = com.ExecuteReader();
+            while (reader.Read())
+            {
+                Empleado emp = new Empleado();
+                emp.numempleado = reader.GetInt32(0);
+                emp.nombre = reader.GetString(1);
+
+                lista.Add(emp);
+            }
+            
+            return lista;
+
+        }
+        */
