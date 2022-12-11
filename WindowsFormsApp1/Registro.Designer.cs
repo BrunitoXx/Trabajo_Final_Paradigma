@@ -249,6 +249,7 @@
 			this.Controls.Add(this.textBox2);
 			this.Controls.Add(this.textBox1);
 			this.Name = "Registro";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Registro";
 			this.ResumeLayout(false);
 			this.PerformLayout();
