@@ -34,8 +34,13 @@ namespace WindowsFormsApp1
 		//usar el evento para Sacar el reclamo que se quiere visualizar
 		private void dgv1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
 		{
+			dgv1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 			dgv1.Rows[e.RowIndex].Selected = true;
 			valor = Convert.ToInt16(dgv1.Rows[e.RowIndex].Cells[0].Value);
+			this.Visible = false;
+			var win = new Gerente2();
+			win.ShowDialog();
+			this.Visible = true;
 		}
 
 		private void Gerente1_Load(object sender, EventArgs e)
