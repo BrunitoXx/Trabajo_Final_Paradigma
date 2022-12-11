@@ -18,8 +18,9 @@ namespace WindowsFormsApp1
 		public static OleDbConnection con = new OleDbConnection(conex);
 
 
-		public static int valor = Gerente1.valor; //valor representa al ID
-
+		public static Int16 valor = Gerente1.valor; //valor representa al ID
+		string tipoReclamo, Fecha1, Fecha2, calle, vehiculos;
+		int piso, altura, cuadrilla, personalExtra = 0;
 		//Saca los datos de la base datos
 		void SacarDatos()
 		{
@@ -33,9 +34,6 @@ namespace WindowsFormsApp1
 
 			DataRow dataRow = dt.Rows[0];
 			con.Close();
-			string tipoReclamo, Fecha1, Fecha2, calle, vehiculos;
-			int piso, altura, cuadrilla, personalExtra = 0;
-
 
 			tipoReclamo = dataRow[9].ToString();
 			Fecha1 = dataRow[11].ToString();
@@ -48,7 +46,7 @@ namespace WindowsFormsApp1
 			personalExtra = Convert.ToInt16(dataRow[16]);
 
 
-			List<int> list = new List<int>();
+			List<Int32> list = new List<Int32>();
 
 			string actual;
 			for (int i = 0; i < vehiculos.Length; i++)
@@ -57,7 +55,7 @@ namespace WindowsFormsApp1
 
 				if (actual != " ")
 				{
-					list.Add(Convert.ToUInt16(actual));
+					list.Add(Convert.ToInt32(actual));
 				}
 			}
 
