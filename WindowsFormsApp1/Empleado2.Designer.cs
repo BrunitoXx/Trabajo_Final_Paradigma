@@ -102,7 +102,7 @@
 			// 
 			this.btnLimpiar.BackColor = System.Drawing.SystemColors.MenuHighlight;
 			this.btnLimpiar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnLimpiar.ForeColor = System.Drawing.SystemColors.Control;
+			this.btnLimpiar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.btnLimpiar.Location = new System.Drawing.Point(211, 468);
 			this.btnLimpiar.Name = "btnLimpiar";
 			this.btnLimpiar.Size = new System.Drawing.Size(82, 41);
@@ -115,7 +115,7 @@
 			// 
 			this.btnCancelar.BackColor = System.Drawing.SystemColors.MenuHighlight;
 			this.btnCancelar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnCancelar.ForeColor = System.Drawing.SystemColors.Control;
+			this.btnCancelar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.btnCancelar.Location = new System.Drawing.Point(115, 468);
 			this.btnCancelar.Name = "btnCancelar";
 			this.btnCancelar.Size = new System.Drawing.Size(90, 41);
@@ -128,7 +128,7 @@
 			// 
 			this.btnConfirmar.BackColor = System.Drawing.SystemColors.MenuHighlight;
 			this.btnConfirmar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnConfirmar.ForeColor = System.Drawing.SystemColors.Control;
+			this.btnConfirmar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.btnConfirmar.Location = new System.Drawing.Point(21, 468);
 			this.btnConfirmar.Name = "btnConfirmar";
 			this.btnConfirmar.Size = new System.Drawing.Size(88, 41);
@@ -348,7 +348,7 @@
 			// button1
 			// 
 			this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-			this.button1.ForeColor = System.Drawing.SystemColors.Control;
+			this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.button1.Location = new System.Drawing.Point(159, 264);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(116, 32);
@@ -527,7 +527,7 @@
 			// btnVerificar
 			// 
 			this.btnVerificar.BackColor = System.Drawing.SystemColors.MenuHighlight;
-			this.btnVerificar.ForeColor = System.Drawing.SystemColors.Control;
+			this.btnVerificar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.btnVerificar.Location = new System.Drawing.Point(57, 169);
 			this.btnVerificar.Margin = new System.Windows.Forms.Padding(2);
 			this.btnVerificar.Name = "btnVerificar";
@@ -581,7 +581,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.SystemColors.ButtonFace;
+			this.BackColor = System.Drawing.Color.Aquamarine;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(1030, 532);
 			this.Controls.Add(this.groupBox6);
@@ -597,7 +597,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "Empleado2";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Secheep";
+			this.Text = "Empleado";
 			this.Load += new System.EventHandler(this.Empleado2_Load);
 			this.groupBox1.ResumeLayout(false);
 			this.groupBox1.PerformLayout();

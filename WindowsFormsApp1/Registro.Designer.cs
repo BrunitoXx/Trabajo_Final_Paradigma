@@ -202,7 +202,7 @@
 			// 
 			// button4
 			// 
-			this.button4.BackColor = System.Drawing.Color.Azure;
+			this.button4.BackColor = System.Drawing.SystemColors.Highlight;
 			this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button4.Location = new System.Drawing.Point(147, 266);
 			this.button4.Name = "button4";
@@ -214,7 +214,7 @@
 			// 
 			// button1
 			// 
-			this.button1.BackColor = System.Drawing.Color.Azure;
+			this.button1.BackColor = System.Drawing.SystemColors.Highlight;
 			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button1.Location = new System.Drawing.Point(300, 330);
 			this.button1.Name = "button1";
@@ -228,7 +228,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.LightSeaGreen;
+			this.BackColor = System.Drawing.Color.Aquamarine;
 			this.ClientSize = new System.Drawing.Size(387, 370);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.label8);
@@ -248,6 +248,7 @@
 			this.Controls.Add(this.textBox3);
 			this.Controls.Add(this.textBox2);
 			this.Controls.Add(this.textBox1);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "Registro";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Registro";

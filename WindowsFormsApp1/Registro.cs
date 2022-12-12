@@ -81,7 +81,7 @@ namespace WindowsFormsApp1
 
 						con.Close();//Cerramos Coneccion con base de datos
 
-						MessageBox.Show("Cliente registrado");
+						MessageBox.Show("El Registro se Realizo Correctamente, Cliente N°: " + Convert.ToString(Idcliente+1));
 
 					}
 

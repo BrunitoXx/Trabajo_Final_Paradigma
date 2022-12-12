@@ -199,7 +199,7 @@
 			// 
 			this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
 			this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.ForeColor = System.Drawing.SystemColors.Control;
+			this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.button1.Location = new System.Drawing.Point(149, 379);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(83, 43);
@@ -212,7 +212,7 @@
 			// 
 			this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
 			this.button2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button2.ForeColor = System.Drawing.SystemColors.Control;
+			this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.button2.Location = new System.Drawing.Point(238, 379);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(91, 43);
@@ -225,7 +225,7 @@
 			// 
 			this.button3.BackColor = System.Drawing.SystemColors.MenuHighlight;
 			this.button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button3.ForeColor = System.Drawing.SystemColors.Control;
+			this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.button3.Location = new System.Drawing.Point(344, 379);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(83, 43);
@@ -310,7 +310,7 @@
 			// 
 			this.btnVerificar.BackColor = System.Drawing.SystemColors.MenuHighlight;
 			this.btnVerificar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnVerificar.ForeColor = System.Drawing.SystemColors.Control;
+			this.btnVerificar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
 			this.btnVerificar.Location = new System.Drawing.Point(83, 136);
 			this.btnVerificar.Margin = new System.Windows.Forms.Padding(2);
 			this.btnVerificar.Name = "btnVerificar";
@@ -325,7 +325,7 @@
 			this.label11.AutoSize = true;
 			this.label11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-			this.label11.Location = new System.Drawing.Point(8, 100);
+			this.label11.Location = new System.Drawing.Point(3, 101);
 			this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(91, 18);
@@ -400,6 +400,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.Aquamarine;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.ClientSize = new System.Drawing.Size(836, 438);
 			this.Controls.Add(this.groupBox3);

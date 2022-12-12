@@ -75,12 +75,6 @@
     <Compile Include="Empleado3.Designer.cs">
       <DependentUpon>Empleado3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gerente2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Gerente2.Designer.cs">
-      <DependentUpon>Gerente2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -136,9 +130,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Gerente1.resx">
       <DependentUpon>Gerente1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Gerente2.resx">
-      <DependentUpon>Gerente2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
